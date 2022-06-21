@@ -1,6 +1,6 @@
 package com.example.listadeexchanges.data.remote.dto
 
-data class ExcangeDto(
+data class ExchangeDto(
     val id: String = "",
     val name: String = "",
     val description: String = "",
