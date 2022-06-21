@@ -68,7 +68,13 @@ fun ExchangeListScreen(
             }
 
             if (state.isLoading) {
-                CircularProgressIndicator(modifier = Modifier.align(alignment = CenterHorizontally))
+                Column(
+                    modifier = Modifier.fillMaxSize(),
+                    verticalArrangement = Arrangement.Center,
+                    horizontalAlignment = CenterHorizontally
+                ) {
+                    CircularProgressIndicator()
+                }
             }
         }
     }
