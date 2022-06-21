@@ -1,4 +1,4 @@
-package com.example.listadeexchanges.ui.theme.Scrrens.Components
+package com.example.listadeexchanges.ui.theme.Scrrens
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
