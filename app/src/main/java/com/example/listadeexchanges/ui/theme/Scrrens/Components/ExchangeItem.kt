@@ -15,7 +15,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import com.example.listadeexchanges.data.remote.dto.ExchangeDto
 
 @Composable
-fun CoinItem(
+fun ExchangeItem(
     exchange: ExchangeDto,
     onClick: (ExchangeDto) -> Unit
 ) {
