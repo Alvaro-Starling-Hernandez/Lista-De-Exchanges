@@ -26,7 +26,7 @@ fun ExchangeListScreen(
         topBar = {
             TopAppBar(
                 title = {
-                    Text("Lista de Exchanges")
+                    Text("List of Exchanges")
                 }
             )
         }
